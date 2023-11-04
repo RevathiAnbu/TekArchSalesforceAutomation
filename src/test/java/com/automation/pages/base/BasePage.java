@@ -3,7 +3,11 @@
 
 package com.automation.pages.base;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 import java.util.Set;
 
@@ -89,6 +93,23 @@ public class BasePage {
 			
 		}
 	}
+	
+	public void selectCalendarDate(String date, String dateformat)  {
+		
+		Calendar calendar = Calendar.getInstance();
+		String targetdate = date;
+		SimpleDateFormat targertDateFormat = new SimpleDateFormat("MMM-dd-yyyy");
+	    Date formattedTargetDate;
+	   
+	    try {
+	    	 targertDateFormat.setLenient(false);
+			 formattedTargetDate = targertDateFormat.parse(targetdate);
+			 calendar.setTime(formattedTargetDate); 
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	
 }
-
+}
 	

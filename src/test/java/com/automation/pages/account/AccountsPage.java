@@ -32,9 +32,11 @@ public class AccountsPage extends BasePage {
 	@FindBy(xpath="//select[@id='fcol1']") WebElement dropdownfieldElement;
 	@FindBy(xpath="//select[@id='fop1']") WebElement dropdownoperatorElement;
 	@FindBy(xpath="//input[@id='fval1']") WebElement dropdownvalueElement;
-	@FindBy(xpath="//input[@title='Save'])[1]") WebElement editsavevalueElement;
+	//@FindBy(xpath="//input[@title='Save'])[1]") WebElement editsavevalueElement;
+	@FindBy(xpath="//body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/input[1]\n"
+			+ "	") WebElement editsavevalueElement;
 	
-	
+	//body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/input[1]
 	
 	// Login to webpage
 	public AccountsPage(WebDriver driver) {

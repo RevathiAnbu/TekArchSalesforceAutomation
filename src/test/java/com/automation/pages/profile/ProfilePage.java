@@ -25,6 +25,7 @@ public class ProfilePage extends BasePage  {
 	@FindBy(xpath ="/html[1]/body[1]") WebElement postBodyElement;
 	@FindBy(xpath="//input[@id='publishersharebutton']") WebElement sharebuttonElement; 
 	@FindBy(xpath="//span[normalize-space()='File']") WebElement fileuploadlinkElement; 
+	//a[@id='uploadLink']
 	@FindBy(xpath="//a[@id='chatterUploadFileAction']") WebElement fileuploadButtonElement; 
 	@FindBy(xpath="//input[@id='chatterFile']") WebElement choosefileButtonElement; 
 	
@@ -34,8 +35,9 @@ public class ProfilePage extends BasePage  {
 	@FindBy(xpath="//iframe[@title='Rich Text Editor, publisherRichTextEditor']") WebElement postlinkbodyiframe;
 	@FindBy(xpath="//iframe[@id='uploadPhotoContentId']") WebElement popupphotofileiframe;
 	
+	@FindBy(xpath="//a[@id='uploadLink']") WebElement addphotolinkElement; 
 	
-	@FindBy(xpath="//a[normalize-space()='Add your photo']") WebElement addphotolinkElement; 
+	//@FindBy(xpath="//a[normalize-space()='Add your photo']") WebElement addphotolinkElement; 
 	@FindBy(xpath="//input[@id='j_id0:uploadFileForm:uploadInputFile']") WebElement choosephotobuttonElement;
 	@FindBy(xpath="//input[@id='j_id0:uploadFileForm:uploadBtn']") WebElement savephotobuttonElement; 
 	@FindBy(xpath="//input[@id='j_id0:j_id7:save']") WebElement thumbnailsavebuttonElement; 

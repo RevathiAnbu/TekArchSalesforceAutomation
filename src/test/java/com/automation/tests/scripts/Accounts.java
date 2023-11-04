@@ -83,6 +83,7 @@ public static void accounts_editview() throws InterruptedException {
 	    accountspage.selectdropdownfield("Account Name");
 	    accountspage.selectdropdownperator("contains");
 	    accountspage.selectdropdownvalue("a");
+	    Thread.sleep(1000);
 	    accountspage.clickeditviewsave();
 	    
 	}

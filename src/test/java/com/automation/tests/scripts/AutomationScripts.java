@@ -60,7 +60,7 @@ import com.automation.tests.utilities.PropertiesUtility;
 			
 			ProfilePage profilepage = new ProfilePage(driver);
 			
-			//edit last name in profile
+			/*//edit last name in profile
 			profilepage.clickEditProfile();
 			driver.switchTo().frame(driver.findElement(By.id("contactInfoContentId")));
 		   	Thread.sleep(1000); 
@@ -71,9 +71,10 @@ import com.automation.tests.utilities.PropertiesUtility;
 		  	Thread.sleep(2000);
 		  	
 		  	//Post link txt
+		  	driver.switchTo().parentFrame();
 		  	profilepage.clickPostLink();
 			Thread.sleep(2000);
-			profilepage. enterpostBody();
+			profilepage.enterpostBody();
 			Thread.sleep(1000);
 			profilepage.clicksharebutton();
 			
@@ -85,7 +86,7 @@ import com.automation.tests.utilities.PropertiesUtility;
 			profilepage.clickfileupload();
 			Thread.sleep(1000);
 			profilepage.clickchoosefile();
-			profilepage.clicksharebutton();
+			profilepage.clicksharebutton();*/
 			
 			
 			//picture upload
@@ -95,51 +96,6 @@ import com.automation.tests.utilities.PropertiesUtility;
 		
 		}
 		
-		
-		@Test
-		public void profilepage_clickpostlink() throws Exception {
-		    
-			login_to_salesforce();
-			UserMenuPage usermenuPage=new UserMenuPage(driver);
-			usermenuPage.clickUserMenuDropDown();
-			usermenuPage.clickMyProfileButton();
-			
-			ProfilePage profilepage = new ProfilePage(driver);
-			
-			Thread.sleep(1000);
-			profilepage.clickPostLink();
-			Thread.sleep(1000);
-
-			//driver.switchTo().frame(driver.findElement(By.className("cke_wysiwyg_frame cke_reset")));
-		   
-			profilepage.enterpostBody();
-			profilepage.clicksharebutton();
-		
-		
-		}
-		
-		@Test
-		
-		public void profilepage_fileupload() throws InterruptedException, AWTException {
-
-			login_to_salesforce();
-			UserMenuPage usermenuPage=new UserMenuPage(driver);
-			usermenuPage.clickUserMenuDropDown();
-			driver = usermenuPage.clickMyProfileButton();
-		
-			
-			ProfilePage profilepage = new ProfilePage(driver);
-			
-			profilepage.clickfileLink();
-			profilepage.clickfileupload();
-			//Thread.sleep(1000);
-			profilepage.clickchoosefile();
-			//a[@id='chatterUploadFileAction']
-			//input[@id='chatterFile']
-			
-		}
-		
-	
 	
 		@Test
 		
@@ -168,13 +124,14 @@ import com.automation.tests.utilities.PropertiesUtility;
 			settingspage.clickmySettings();
 			
 			//Personal
-			/*settingspage.clickpersonal();
+			settingspage.clickpersonal();
 			settingspage.loginhistory();
 			settingspage.clickdownloadloginhistory();
 			
 			//Display Layout
 			settingspage.clickdisplaylayout();
 			settingspage.clickcustomizetab();
+
 			settingspage.selectdropdowncustomapp(customapptxt);
 			settingspage.multiselectdropdownvalues(availabletabtxt);
 			Thread.sleep(1000);
@@ -182,7 +139,7 @@ import com.automation.tests.utilities.PropertiesUtility;
 			Thread.sleep(1000);
 			settingspage.clicksave();
 			Thread.sleep(500);
-			//settingspage.clickmultiselectremove();*/
+			//settingspage.clickmultiselectremove();
 			
 			//Email
 			settingspage.clickemail();
@@ -191,13 +148,13 @@ import com.automation.tests.utilities.PropertiesUtility;
 			settingspage.enteremailname(emailname);
 			Thread.sleep(500);
 			settingspage.enteremailaddress(emailaddress);
-			settingspage.clicksaveemailbutton();
+			settingspage.clicksaveemailbutton();   
 			
 			//Calendars and Remainders
 			
-			//settingspage.clickcalendarsandremainders();
-			//settingspage.clickactivityremainders();
-			//settingspage.clickopentestremainderElement();
+			settingspage.clickcalendarsandremainders();
+			settingspage.clickactivityremainders();
+			settingspage.clickopentestremainderElement();
 			
 			
 			

@@ -40,6 +40,12 @@ public class SettingsPage extends BasePage {
 	//input[@title='Save']
 	//input[@id='sender_name']
 	
+	@FindBy(xpath="//span[@id='CalendarAndReminders_font']") WebElement calendarsandremaindersElement;
+	@FindBy(xpath="//span[@id='Reminders_font']") WebElement activityremaindersElement;
+	@FindBy(xpath="//input[@id='testbtn']") WebElement opentestremainderElement;
+	
+	
+	
 
 	public SettingsPage(WebDriver driver) {
 		
@@ -130,15 +136,22 @@ public class SettingsPage extends BasePage {
 		clickElement(emailsavebuttonElement,"save button");
 	}
 	
-	/*List<WebElement> radiobutton = driver.findElements(By.name("gender"));
-	int size = radiobutton.size();
+	public void clickcalendarsandremainders(){
+		clickElement(calendarsandremaindersElement,"Calendar Remainder");
+		
+	}
 	
-	for(int i=0 ; i< size; i++) {
-		String val = radiobutton.get(i).getAttribute("value");
-		if (val.equalsIgnoreCase("female")) 
-			radiobutton.get(i).click();
-	}	*/
+	public void clickactivityremainders(){
+		clickElement(activityremaindersElement,"Activity Remainder");
+		
+	}
 	
+	public void clickopentestremainderElement(){
+		clickElement(opentestremainderElement,"Open test Remainder");
+		
+	}
+	
+
 	
 	
 }
