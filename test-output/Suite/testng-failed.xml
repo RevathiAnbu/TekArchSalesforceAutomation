@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.automation.tests.scripts.Leads">
+        <methods>
+          <include name="leadspage_selecttodaylead"/>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="setUpBeforeTestMethod"/>
+        </methods>
+      </class> <!-- com.automation.tests.scripts.Leads -->
+      <class name="com.automation.tests.scripts.Accounts">
+        <methods>
+          <include name="accounts_createnewview"/>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="setUpBeforeTestMethod"/>
+        </methods>
+      </class> <!-- com.automation.tests.scripts.Accounts -->
+      <class name="com.automation.tests.scripts.Opportunity">
+        <methods>
+          <include name="opportunity_createnew"/>
+          <include name="setUpBeforeTestMethod"/>
+          <include name="tearDownAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.automation.tests.scripts.Opportunity -->
+      <class name="com.automation.tests.scripts.AutomationScripts">
+        <methods>
+          <include name="usermenu_myprofile"/>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="setUpBeforeTestMethod"/>
+          <include name="usermenu_mysettings"/>
+        </methods>
+      </class> <!-- com.automation.tests.scripts.AutomationScripts -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
