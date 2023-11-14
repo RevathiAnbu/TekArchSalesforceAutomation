@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.tests.scripts.Opportunity">
+      <class name="com.automation.tests.scripts.Leads">
         <methods>
-          <include name="login_to_salesforce"/>
-          <include name="tearDownAfterTestMethod"/>
+          <include name="leadspage_selecttodaylead"/>
           <include name="setUpBeforeTestMethod"/>
+          <include name="tearDownAfterTestMethod"/>
         </methods>
-      </class> <!-- com.automation.tests.scripts.Opportunity -->
+      </class> <!-- com.automation.tests.scripts.Leads -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

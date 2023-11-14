@@ -35,6 +35,23 @@ public class Opportunitypage extends BasePage {
 	@FindBy(xpath="//input[@id='opp12']") WebElement probabilityElement;
 	@FindBy(xpath="//select[@id='opp6']") WebElement leadsourceElement;
 	@FindBy(xpath="//input[@id='opp17']") WebElement campaignsourceElement;
+	@FindBy(xpath="//td[@id='bottomButtonRow']//input[@title='Save']") WebElement saveElement;
+	@FindBy(xpath="//a[normalize-space()='Stuck Opportunities']") WebElement stuckoppElement;
+	
+	
+	@FindBy(xpath="//select[@id='quarter_q']") WebElement intervaldropdownElement;
+	@FindBy(xpath="//select[@id='open']") WebElement includedropdownElement;
+
+	@FindBy(xpath="//input[@title='Run Report']") WebElement runReportElement;
+
+	//input[@title='Run Report']
+	
+	//a[normalize-space()='Stuck Opportunities']
+	//td[@id='bottomButtonRow']//input[@title='Save']
+	//a[normalize-space()='Opportunity Pipeline']
+	
+	@FindBy(xpath="//a[normalize-space()='Opportunity Pipeline']") WebElement pipelineElement;
+	
 
 	//select[@id='fcf']
 	// Login to webpage
@@ -135,12 +152,42 @@ public class Opportunitypage extends BasePage {
 			enterText(campaignsourceElement, data, "Opportunity Name");
 		}
 		
-		public void entercalendardate(String expecteddate, String givendateformat)   {
-
-			clickElement(closedateElement,"close date");	
-			selectCalendarDate(expecteddate,givendateformat);
+		public void entercalendardate(String data) {
+			enterText(closedateElement, data, "close date");
+		}
+		
+		public void clicksavebutton() {
+			clickElement(saveElement,"save button");
 			
 		}
 		
-
+		//pipeline report
+		
+		public void clickpipeline() {
+			clickElement(pipelineElement,"pipeline");
+		}
+		
+		public void clickstuckopplink() {
+			clickElement(stuckoppElement,"Stuck Opportunities");
+		}
+		
+		public void clickIntervalDropDown(String data) {
+			clickElement(intervaldropdownElement,data);
+			
+		}
+		
+		public void clickIncludeDropDown(String data) {
+			clickElement(includedropdownElement,data);
+			
+		}
+		
+		
+		public void clickRunReport() {
+			clickElement(runReportElement,"Report button");
+			
+		}
+		
+		
+		
+		
 }

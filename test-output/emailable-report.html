@@ -8,11 +8,129 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">43,972</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">15</td><td class="num">0</td><td class="num">0</td><td class="num attn">5</td><td class="num">848,434</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.automation.tests.scripts.Opportunity</td><td><a href="#m0">opportunity_createnew</a></td><td rowspan="1">1699110738279</td><td rowspan="1">35671</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.automation.tests.scripts.Accounts</td><td><a href="#m0">accounts_createnewview</a></td><td rowspan="1">1699927103632</td><td rowspan="1">40768</td></tr><tr class="failedodd"><td rowspan="2">com.automation.tests.scripts.AutomationScripts</td><td><a href="#m1">usermenu_myprofile</a></td><td rowspan="1">1699926650508</td><td rowspan="1">64805</td></tr><tr class="failedodd"><td><a href="#m2">usermenu_mysettings</a></td><td rowspan="1">1699926722045</td><td rowspan="1">37497</td></tr><tr class="failedeven"><td rowspan="1">com.automation.tests.scripts.Leads</td><td><a href="#m3">leadspage_selecttodaylead</a></td><td rowspan="1">1699926913884</td><td rowspan="1">28902</td></tr><tr class="failedodd"><td rowspan="1">com.automation.tests.scripts.Opportunity</td><td><a href="#m4">opportunity_createnew</a></td><td rowspan="1">1699927301525</td><td rowspan="1">39574</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.automation.tests.scripts.Accounts</td><td><a href="#m5">accounts_createnewaccount</a></td><td rowspan="1">1699927055676</td><td rowspan="1">41467</td></tr><tr class="passedeven"><td><a href="#m6">accounts_editview</a></td><td rowspan="1">1699927151255</td><td rowspan="1">46230</td></tr><tr class="passedeven"><td><a href="#m7">login_to_salesforce</a></td><td rowspan="1">1699927204117</td><td rowspan="1">22118</td></tr><tr class="passedodd"><td rowspan="1">com.automation.tests.scripts.AutomationScripts</td><td><a href="#m8">login_to_salesforce</a></td><td rowspan="1">1699926616139</td><td rowspan="1">28138</td></tr><tr class="passedeven"><td rowspan="6">com.automation.tests.scripts.Leads</td><td><a href="#m9">invalid_login_to_salesforce</a></td><td rowspan="1">1699926765940</td><td rowspan="1">20286</td></tr><tr class="passedeven"><td><a href="#m10">leadspage_defaultview</a></td><td rowspan="1">1699926792487</td><td rowspan="1">67006</td></tr><tr class="passedeven"><td><a href="#m11">leadspage_selectnew</a></td><td rowspan="1">1699926866655</td><td rowspan="1">40595</td></tr><tr class="passedeven"><td><a href="#m12">leadspage_validateviewmenu</a></td><td rowspan="1">1699926949384</td><td rowspan="1">30141</td></tr><tr class="passedeven"><td><a href="#m13">login_to_leadspage</a></td><td rowspan="1">1699926985782</td><td rowspan="1">36215</td></tr><tr class="passedeven"><td><a href="#m14">login_to_salesforce</a></td><td rowspan="1">1699927028244</td><td rowspan="1">21213</td></tr><tr class="passedodd"><td rowspan="5">com.automation.tests.scripts.Opportunity</td><td><a href="#m15">clickIntervalDropDown</a></td><td rowspan="1">1699927232886</td><td rowspan="1">35587</td></tr><tr class="passedodd"><td><a href="#m16">login_to_salesforce</a></td><td rowspan="1">1699927274654</td><td rowspan="1">20765</td></tr><tr class="passedodd"><td><a href="#m17">opportunity_pipelinereport</a></td><td rowspan="1">1699927347290</td><td rowspan="1">32247</td></tr><tr class="passedodd"><td><a href="#m18">opportunity_stuckoppreport</a></td><td rowspan="1">1699927386046</td><td rowspan="1">32165</td></tr><tr class="passedodd"><td><a href="#m19">opportunity_validatedropdown</a></td><td rowspan="1">1699927424595</td><td rowspan="1">29939</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.automation.tests.scripts.Opportunity#opportunity_createnew</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.automation.tests.scripts.Accounts#accounts_createnewview</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[@title=&apos;Save&apos;])[2] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//input[@title=&apos;Save&apos;])[2]&apos; is not a valid XPath expression.
+  (Session info: chrome=119.0.6045.123)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: &apos;4.14.0&apos;, revision: &apos;e5a96349ce&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.2.1&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8fc7f0ff3d7f4b1e50aa5fcaff01f33b, findElement {using=xpath, value=//input[@title=&apos;Save&apos;])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/37/c7r05tds675...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64311}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64311/devtoo..., se:cdpVersion: 119.0.6045.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fc7f0ff3d7f4b1e50aa5fcaff01f33b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.isEnabled(Unknown Source)
+	at com.automation.pages.base.BasePage.clickElement(BasePage.java:87)
+	at com.automation.pages.account.AccountsPage.clickviewsavebutton(AccountsPage.java:118)
+	at com.automation.tests.scripts.Accounts.accounts_createnewview(Accounts.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.automation.tests.scripts.AutomationScripts#usermenu_myprofile</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;javascript:void(0);&quot; onblur=&quot;SfdcApp.ChatterProfilePhotoSection.showHideBadgeAndPhotoLinks(false)&quot; id=&quot;uploadLink&quot; onfocus=&quot;SfdcApp.ChatterProfilePhotoSection.showHideBadgeAndPhotoLinks(true)&quot; data-uidsfdc=&quot;134&quot;&gt;...&lt;/a&gt; is not clickable at point (121, 356). Other element would receive the click: &lt;span class=&quot;moderatorBadge&quot; id=&quot;displayBadge&quot;&gt;...&lt;/span&gt;
+  (Session info: chrome=119.0.6045.123)
+Build info: version: &apos;4.14.0&apos;, revision: &apos;e5a96349ce&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.2.1&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [445a7e6c2cee5090f781b05da69cbbd4, clickElement {id=2A44871C0344108A44A4295AA76EDC6E_element_216}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/37/c7r05tds675...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63817}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63817/devtoo..., se:cdpVersion: 119.0.6045.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (445a7e6c2cee5090f781b05da69cbbd4)] -&gt; xpath: //a[@id=&apos;uploadLink&apos;]]
+Session ID: 445a7e6c2cee5090f781b05da69cbbd4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+	at com.automation.pages.base.BasePage.clickElement(BasePage.java:88)
+	at com.automation.pages.profile.ProfilePage.clickaddphoto(ProfilePage.java:108)
+	at com.automation.tests.scripts.AutomationScripts.usermenu_myprofile(AutomationScripts.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.automation.tests.scripts.AutomationScripts#usermenu_mysettings</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Reports
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.14.0&apos;, revision: &apos;e5a96349ce&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.2.1&apos;, java.version: &apos;17.0.8&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at com.automation.pages.base.BasePage.selectdropdownText(BasePage.java:74)
+	at com.automation.pages.settings.SettingsPage.multiselectdropdownvalues(SettingsPage.java:96)
+	at com.automation.tests.scripts.AutomationScripts.usermenu_mysettings(AutomationScripts.java:135)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.automation.tests.scripts.Leads#leadspage_selecttodaylead</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Todday&apos;s Leads
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.14.0&apos;, revision: &apos;e5a96349ce&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.2.1&apos;, java.version: &apos;17.0.8&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at com.automation.pages.base.BasePage.selectdropdownText(BasePage.java:74)
+	at com.automation.pages.leads.LeadsPage.selectdropdownValue(LeadsPage.java:126)
+	at com.automation.tests.scripts.Leads.leadspage_selecttodaylead(Leads.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.automation.tests.scripts.Opportunity#opportunity_createnew</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[normalize-space()=&apos;Opportunity Pipeline&apos;]&quot;}
+  (Session info: chrome=119.0.6045.123)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.14.0&apos;, revision: &apos;e5a96349ce&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.2.1&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9fa85972e08d3f2e7787eb4ff58119af, findElement {using=xpath, value=//a[normalize-space()=&apos;Opportunity Pipeline&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/37/c7r05tds675...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64532}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64532/devtoo..., se:cdpVersion: 119.0.6045.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9fa85972e08d3f2e7787eb4ff58119af
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.isEnabled(Unknown Source)
+	at com.automation.pages.base.BasePage.clickElement(BasePage.java:87)
+	at com.automation.pages.opportunity.Opportunitypage.clickpipeline(Opportunitypage.java:167)
+	at com.automation.tests.scripts.Opportunity.opportunity_createnew(Opportunity.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.automation.tests.scripts.Accounts#accounts_createnewaccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.automation.tests.scripts.Accounts#accounts_editview</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.automation.tests.scripts.Accounts#login_to_salesforce</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.automation.tests.scripts.AutomationScripts#login_to_salesforce</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.automation.tests.scripts.Leads#invalid_login_to_salesforce</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.automation.tests.scripts.Leads#leadspage_defaultview</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.automation.tests.scripts.Leads#leadspage_selectnew</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.automation.tests.scripts.Leads#leadspage_validateviewmenu</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.automation.tests.scripts.Leads#login_to_leadspage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.automation.tests.scripts.Leads#login_to_salesforce</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.automation.tests.scripts.Opportunity#clickIntervalDropDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.automation.tests.scripts.Opportunity#login_to_salesforce</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.automation.tests.scripts.Opportunity#opportunity_pipelinereport</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.automation.tests.scripts.Opportunity#opportunity_stuckoppreport</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">com.automation.tests.scripts.Opportunity#opportunity_validatedropdown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

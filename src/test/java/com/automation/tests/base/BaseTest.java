@@ -85,6 +85,8 @@ public class BaseTest {
 	@AfterMethod
 	public void tearDownAfterTestMethod() {
 		//closeBrowser();
+		driver.close();
+		driver.quit();
 		//myLog.info("******login_to_firebase automation script ended***********");
 	}
 	

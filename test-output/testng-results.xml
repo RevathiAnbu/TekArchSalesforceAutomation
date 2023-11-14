@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="20" passed="15" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-04T10:12:09 CDT" name="Default suite" finished-at="2023-11-04T10:12:53 CDT" duration-ms="43972">
+  <suite started-at="2023-11-13T19:50:06 CST" name="Suite" finished-at="2023-11-13T20:04:14 CST" duration-ms="848434">
     <groups>
     </groups>
-    <test started-at="2023-11-04T10:12:09 CDT" name="Default test" finished-at="2023-11-04T10:12:53 CDT" duration-ms="43972">
-      <class name="com.automation.tests.scripts.Opportunity">
-        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.Opportunity@5677323c]" started-at="2023-11-04T10:12:10 CDT" name="setUpBeforeTestMethod" finished-at="2023-11-04T10:12:18 CDT" duration-ms="8239" status="PASS">
+    <test started-at="2023-11-13T19:50:06 CST" name="Test" finished-at="2023-11-13T20:04:14 CST" duration-ms="848434">
+      <class name="com.automation.tests.scripts.Leads">
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.Leads@563f38c4]" started-at="2023-11-13T19:52:39 CST" name="setUpBeforeTestMethod" finished-at="2023-11-13T19:52:45 CST" duration-ms="6170" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,708 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeTestMethod -->
-        <test-method signature="opportunity_createnew()[pri:0, instance:com.automation.tests.scripts.Opportunity@5677323c]" started-at="2023-11-04T10:12:18 CDT" name="opportunity_createnew" finished-at="2023-11-04T10:12:53 CDT" duration-ms="35671" status="PASS">
+        <test-method signature="invalid_login_to_salesforce()[pri:0, instance:com.automation.tests.scripts.Leads@563f38c4]" started-at="2023-11-13T19:52:45 CST" name="invalid_login_to_salesforce" finished-at="2023-11-13T19:53:06 CST" duration-ms="20286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_login_to_salesforce -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.Leads@563f38c4]" started-at="2023-11-13T19:53:06 CST" name="tearDownAfterTestMethod" finished-at="2023-11-13T19:53:06 CST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.Leads@563f38c4]" started-at="2023-11-13T19:53:06 CST" name="setUpBeforeTestMethod" finished-at="2023-11-13T19:53:12 CST" duration-ms="6073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="leadspage_defaultview()[pri:0, instance:com.automation.tests.scripts.Leads@563f38c4]" started-at="2023-11-13T19:53:12 CST" name="leadspage_defaultview" finished-at="2023-11-13T19:54:19 CST" duration-ms="67006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadspage_defaultview -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.Leads@563f38c4]" started-at="2023-11-13T19:54:19 CST" name="tearDownAfterTestMethod" finished-at="2023-11-13T19:54:19 CST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.Leads@563f38c4]" started-at="2023-11-13T19:54:19 CST" name="setUpBeforeTestMethod" finished-at="2023-11-13T19:54:26 CST" duration-ms="6971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="leadspage_selectnew()[pri:0, instance:com.automation.tests.scripts.Leads@563f38c4]" started-at="2023-11-13T19:54:26 CST" name="leadspage_selectnew" finished-at="2023-11-13T19:55:07 CST" duration-ms="40595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadspage_selectnew -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.Leads@563f38c4]" started-at="2023-11-13T19:55:07 CST" name="tearDownAfterTestMethod" finished-at="2023-11-13T19:55:07 CST" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.Leads@563f38c4]" started-at="2023-11-13T19:55:07 CST" name="setUpBeforeTestMethod" finished-at="2023-11-13T19:55:13 CST" duration-ms="6093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="leadspage_selecttodaylead()[pri:0, instance:com.automation.tests.scripts.Leads@563f38c4]" started-at="2023-11-13T19:55:13 CST" name="leadspage_selecttodaylead" finished-at="2023-11-13T19:55:42 CST" duration-ms="28902" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: Todday's Leads
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '17.0.8'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Todday's Leads
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '17.0.8'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+at com.automation.pages.base.BasePage.selectdropdownText(BasePage.java:74)
+at com.automation.pages.leads.LeadsPage.selectdropdownValue(LeadsPage.java:126)
+at com.automation.tests.scripts.Leads.leadspage_selecttodaylead(Leads.java:87)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadspage_selecttodaylead -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.Leads@563f38c4]" started-at="2023-11-13T19:55:42 CST" name="tearDownAfterTestMethod" finished-at="2023-11-13T19:55:42 CST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.Leads@563f38c4]" started-at="2023-11-13T19:55:42 CST" name="setUpBeforeTestMethod" finished-at="2023-11-13T19:55:49 CST" duration-ms="6398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="leadspage_validateviewmenu()[pri:0, instance:com.automation.tests.scripts.Leads@563f38c4]" started-at="2023-11-13T19:55:49 CST" name="leadspage_validateviewmenu" finished-at="2023-11-13T19:56:19 CST" duration-ms="30141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadspage_validateviewmenu -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.Leads@563f38c4]" started-at="2023-11-13T19:56:19 CST" name="tearDownAfterTestMethod" finished-at="2023-11-13T19:56:19 CST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.Leads@563f38c4]" started-at="2023-11-13T19:56:19 CST" name="setUpBeforeTestMethod" finished-at="2023-11-13T19:56:25 CST" duration-ms="6072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="login_to_leadspage()[pri:0, instance:com.automation.tests.scripts.Leads@563f38c4]" started-at="2023-11-13T19:56:25 CST" name="login_to_leadspage" finished-at="2023-11-13T19:57:01 CST" duration-ms="36215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_to_leadspage -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.Leads@563f38c4]" started-at="2023-11-13T19:57:01 CST" name="tearDownAfterTestMethod" finished-at="2023-11-13T19:57:02 CST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.Leads@563f38c4]" started-at="2023-11-13T19:57:02 CST" name="setUpBeforeTestMethod" finished-at="2023-11-13T19:57:08 CST" duration-ms="6022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="login_to_salesforce()[pri:0, instance:com.automation.tests.scripts.Leads@563f38c4]" started-at="2023-11-13T19:57:08 CST" name="login_to_salesforce" finished-at="2023-11-13T19:57:29 CST" duration-ms="21213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_to_salesforce -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.Leads@563f38c4]" started-at="2023-11-13T19:57:29 CST" name="tearDownAfterTestMethod" finished-at="2023-11-13T19:57:29 CST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+      </class> <!-- com.automation.tests.scripts.Leads -->
+      <class name="com.automation.tests.scripts.Opportunity">
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.Opportunity@54422e18]" started-at="2023-11-13T20:00:26 CST" name="setUpBeforeTestMethod" finished-at="2023-11-13T20:00:32 CST" duration-ms="6424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="clickIntervalDropDown()[pri:0, instance:com.automation.tests.scripts.Opportunity@54422e18]" started-at="2023-11-13T20:00:32 CST" name="clickIntervalDropDown" finished-at="2023-11-13T20:01:08 CST" duration-ms="35587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickIntervalDropDown -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.Opportunity@54422e18]" started-at="2023-11-13T20:01:08 CST" name="tearDownAfterTestMethod" finished-at="2023-11-13T20:01:08 CST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.Opportunity@54422e18]" started-at="2023-11-13T20:01:08 CST" name="setUpBeforeTestMethod" finished-at="2023-11-13T20:01:14 CST" duration-ms="5998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="login_to_salesforce()[pri:0, instance:com.automation.tests.scripts.Opportunity@54422e18]" started-at="2023-11-13T20:01:14 CST" name="login_to_salesforce" finished-at="2023-11-13T20:01:35 CST" duration-ms="20765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_to_salesforce -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.Opportunity@54422e18]" started-at="2023-11-13T20:01:35 CST" name="tearDownAfterTestMethod" finished-at="2023-11-13T20:01:35 CST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.Opportunity@54422e18]" started-at="2023-11-13T20:01:35 CST" name="setUpBeforeTestMethod" finished-at="2023-11-13T20:01:41 CST" duration-ms="5914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="opportunity_createnew()[pri:0, instance:com.automation.tests.scripts.Opportunity@54422e18]" started-at="2023-11-13T20:01:41 CST" name="opportunity_createnew" finished-at="2023-11-13T20:02:21 CST" duration-ms="39574" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Opportunity Pipeline']"}
+  (Session info: chrome=119.0.6045.123)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9fa85972e08d3f2e7787eb4ff58119af, findElement {using=xpath, value=//a[normalize-space()='Opportunity Pipeline']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/37/c7r05tds675...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64532}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64532/devtoo..., se:cdpVersion: 119.0.6045.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9fa85972e08d3f2e7787eb4ff58119af]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Opportunity Pipeline']"}
+  (Session info: chrome=119.0.6045.123)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9fa85972e08d3f2e7787eb4ff58119af, findElement {using=xpath, value=//a[normalize-space()='Opportunity Pipeline']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/37/c7r05tds675...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64532}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64532/devtoo..., se:cdpVersion: 119.0.6045.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9fa85972e08d3f2e7787eb4ff58119af
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.isEnabled(Unknown Source)
+at com.automation.pages.base.BasePage.clickElement(BasePage.java:87)
+at com.automation.pages.opportunity.Opportunitypage.clickpipeline(Opportunitypage.java:167)
+at com.automation.tests.scripts.Opportunity.opportunity_createnew(Opportunity.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- opportunity_createnew -->
-        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.Opportunity@5677323c]" started-at="2023-11-04T10:12:53 CDT" name="tearDownAfterTestMethod" finished-at="2023-11-04T10:12:53 CDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.Opportunity@54422e18]" started-at="2023-11-13T20:02:21 CST" name="tearDownAfterTestMethod" finished-at="2023-11-13T20:02:21 CST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.Opportunity@54422e18]" started-at="2023-11-13T20:02:21 CST" name="setUpBeforeTestMethod" finished-at="2023-11-13T20:02:27 CST" duration-ms="5980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="opportunity_pipelinereport()[pri:0, instance:com.automation.tests.scripts.Opportunity@54422e18]" started-at="2023-11-13T20:02:27 CST" name="opportunity_pipelinereport" finished-at="2023-11-13T20:02:59 CST" duration-ms="32247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opportunity_pipelinereport -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.Opportunity@54422e18]" started-at="2023-11-13T20:02:59 CST" name="tearDownAfterTestMethod" finished-at="2023-11-13T20:02:59 CST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.Opportunity@54422e18]" started-at="2023-11-13T20:02:59 CST" name="setUpBeforeTestMethod" finished-at="2023-11-13T20:03:06 CST" duration-ms="6094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="opportunity_stuckoppreport()[pri:0, instance:com.automation.tests.scripts.Opportunity@54422e18]" started-at="2023-11-13T20:03:06 CST" name="opportunity_stuckoppreport" finished-at="2023-11-13T20:03:38 CST" duration-ms="32165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opportunity_stuckoppreport -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.Opportunity@54422e18]" started-at="2023-11-13T20:03:38 CST" name="tearDownAfterTestMethod" finished-at="2023-11-13T20:03:38 CST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.Opportunity@54422e18]" started-at="2023-11-13T20:03:38 CST" name="setUpBeforeTestMethod" finished-at="2023-11-13T20:03:44 CST" duration-ms="5913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="opportunity_validatedropdown()[pri:0, instance:com.automation.tests.scripts.Opportunity@54422e18]" started-at="2023-11-13T20:03:44 CST" name="opportunity_validatedropdown" finished-at="2023-11-13T20:04:14 CST" duration-ms="29939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opportunity_validatedropdown -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.Opportunity@54422e18]" started-at="2023-11-13T20:04:14 CST" name="tearDownAfterTestMethod" finished-at="2023-11-13T20:04:14 CST" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterTestMethod -->
       </class> <!-- com.automation.tests.scripts.Opportunity -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.automation.tests.scripts.Accounts">
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.Accounts@543295b0]" started-at="2023-11-13T19:57:29 CST" name="setUpBeforeTestMethod" finished-at="2023-11-13T19:57:35 CST" duration-ms="6029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="accounts_createnewaccount()[pri:0, instance:com.automation.tests.scripts.Accounts@543295b0]" started-at="2023-11-13T19:57:35 CST" name="accounts_createnewaccount" finished-at="2023-11-13T19:58:17 CST" duration-ms="41467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accounts_createnewaccount -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.Accounts@543295b0]" started-at="2023-11-13T19:58:17 CST" name="tearDownAfterTestMethod" finished-at="2023-11-13T19:58:17 CST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.Accounts@543295b0]" started-at="2023-11-13T19:58:17 CST" name="setUpBeforeTestMethod" finished-at="2023-11-13T19:58:23 CST" duration-ms="6125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="accounts_createnewview()[pri:0, instance:com.automation.tests.scripts.Accounts@543295b0]" started-at="2023-11-13T19:58:23 CST" name="accounts_createnewview" finished-at="2023-11-13T19:59:04 CST" duration-ms="40768" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression //input[@title='Save'])[2] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@title='Save'])[2]' is not a valid XPath expression.
+  (Session info: chrome=119.0.6045.123)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8fc7f0ff3d7f4b1e50aa5fcaff01f33b, findElement {using=xpath, value=//input[@title='Save'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/37/c7r05tds675...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64311}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64311/devtoo..., se:cdpVersion: 119.0.6045.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fc7f0ff3d7f4b1e50aa5fcaff01f33b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[@title='Save'])[2] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@title='Save'])[2]' is not a valid XPath expression.
+  (Session info: chrome=119.0.6045.123)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8fc7f0ff3d7f4b1e50aa5fcaff01f33b, findElement {using=xpath, value=//input[@title='Save'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/37/c7r05tds675...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64311}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64311/devtoo..., se:cdpVersion: 119.0.6045.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fc7f0ff3d7f4b1e50aa5fcaff01f33b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.isEnabled(Unknown Source)
+at com.automation.pages.base.BasePage.clickElement(BasePage.java:87)
+at com.automation.pages.account.AccountsPage.clickviewsavebutton(AccountsPage.java:118)
+at com.automation.tests.scripts.Accounts.accounts_createnewview(Accounts.java:66)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accounts_createnewview -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.Accounts@543295b0]" started-at="2023-11-13T19:59:04 CST" name="tearDownAfterTestMethod" finished-at="2023-11-13T19:59:04 CST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.Accounts@543295b0]" started-at="2023-11-13T19:59:04 CST" name="setUpBeforeTestMethod" finished-at="2023-11-13T19:59:11 CST" duration-ms="6574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="accounts_editview()[pri:0, instance:com.automation.tests.scripts.Accounts@543295b0]" started-at="2023-11-13T19:59:11 CST" name="accounts_editview" finished-at="2023-11-13T19:59:57 CST" duration-ms="46230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accounts_editview -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.Accounts@543295b0]" started-at="2023-11-13T19:59:57 CST" name="tearDownAfterTestMethod" finished-at="2023-11-13T19:59:57 CST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.Accounts@543295b0]" started-at="2023-11-13T19:59:57 CST" name="setUpBeforeTestMethod" finished-at="2023-11-13T20:00:04 CST" duration-ms="6430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="login_to_salesforce()[pri:0, instance:com.automation.tests.scripts.Accounts@543295b0]" started-at="2023-11-13T20:00:04 CST" name="login_to_salesforce" finished-at="2023-11-13T20:00:26 CST" duration-ms="22118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_to_salesforce -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.Accounts@543295b0]" started-at="2023-11-13T20:00:26 CST" name="tearDownAfterTestMethod" finished-at="2023-11-13T20:00:26 CST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+      </class> <!-- com.automation.tests.scripts.Accounts -->
+      <class name="com.automation.tests.scripts.AutomationScripts">
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.AutomationScripts@45099dd3]" started-at="2023-11-13T19:50:06 CST" name="setUpBeforeTestMethod" finished-at="2023-11-13T19:50:16 CST" duration-ms="9803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="login_to_salesforce()[pri:0, instance:com.automation.tests.scripts.AutomationScripts@45099dd3]" started-at="2023-11-13T19:50:16 CST" name="login_to_salesforce" finished-at="2023-11-13T19:50:44 CST" duration-ms="28138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_to_salesforce -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.AutomationScripts@45099dd3]" started-at="2023-11-13T19:50:44 CST" name="tearDownAfterTestMethod" finished-at="2023-11-13T19:50:44 CST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.AutomationScripts@45099dd3]" started-at="2023-11-13T19:50:44 CST" name="setUpBeforeTestMethod" finished-at="2023-11-13T19:50:50 CST" duration-ms="6004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="usermenu_myprofile()[pri:0, instance:com.automation.tests.scripts.AutomationScripts@45099dd3]" started-at="2023-11-13T19:50:50 CST" name="usermenu_myprofile" finished-at="2023-11-13T19:51:55 CST" duration-ms="64805" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="javascript:void(0);" onblur="SfdcApp.ChatterProfilePhotoSection.showHideBadgeAndPhotoLinks(false)" id="uploadLink" onfocus="SfdcApp.ChatterProfilePhotoSection.showHideBadgeAndPhotoLinks(true)" data-uidsfdc="134">...</a> is not clickable at point (121, 356). Other element would receive the click: <span class="moderatorBadge" id="displayBadge">...</span>
+  (Session info: chrome=119.0.6045.123)
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [445a7e6c2cee5090f781b05da69cbbd4, clickElement {id=2A44871C0344108A44A4295AA76EDC6E_element_216}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/37/c7r05tds675...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63817}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63817/devtoo..., se:cdpVersion: 119.0.6045.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (445a7e6c2cee5090f781b05da69cbbd4)] -> xpath: //a[@id='uploadLink']]
+Session ID: 445a7e6c2cee5090f781b05da69cbbd4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0);" onblur="SfdcApp.ChatterProfilePhotoSection.showHideBadgeAndPhotoLinks(false)" id="uploadLink" onfocus="SfdcApp.ChatterProfilePhotoSection.showHideBadgeAndPhotoLinks(true)" data-uidsfdc="134">...</a> is not clickable at point (121, 356). Other element would receive the click: <span class="moderatorBadge" id="displayBadge">...</span>
+  (Session info: chrome=119.0.6045.123)
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [445a7e6c2cee5090f781b05da69cbbd4, clickElement {id=2A44871C0344108A44A4295AA76EDC6E_element_216}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/37/c7r05tds675...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63817}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63817/devtoo..., se:cdpVersion: 119.0.6045.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (445a7e6c2cee5090f781b05da69cbbd4)] -> xpath: //a[@id='uploadLink']]
+Session ID: 445a7e6c2cee5090f781b05da69cbbd4
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at com.automation.pages.base.BasePage.clickElement(BasePage.java:88)
+at com.automation.pages.profile.ProfilePage.clickaddphoto(ProfilePage.java:108)
+at com.automation.tests.scripts.AutomationScripts.usermenu_myprofile(AutomationScripts.java:92)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usermenu_myprofile -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.AutomationScripts@45099dd3]" started-at="2023-11-13T19:51:55 CST" name="tearDownAfterTestMethod" finished-at="2023-11-13T19:51:55 CST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.AutomationScripts@45099dd3]" started-at="2023-11-13T19:51:55 CST" name="setUpBeforeTestMethod" finished-at="2023-11-13T19:52:02 CST" duration-ms="6396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="usermenu_mysettings()[pri:0, instance:com.automation.tests.scripts.AutomationScripts@45099dd3]" started-at="2023-11-13T19:52:02 CST" name="usermenu_mysettings" finished-at="2023-11-13T19:52:39 CST" duration-ms="37497" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: Reports
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '17.0.8'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Reports
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '17.0.8'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+at com.automation.pages.base.BasePage.selectdropdownText(BasePage.java:74)
+at com.automation.pages.settings.SettingsPage.multiselectdropdownvalues(SettingsPage.java:96)
+at com.automation.tests.scripts.AutomationScripts.usermenu_mysettings(AutomationScripts.java:135)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usermenu_mysettings -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.AutomationScripts@45099dd3]" started-at="2023-11-13T19:52:39 CST" name="tearDownAfterTestMethod" finished-at="2023-11-13T19:52:39 CST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+      </class> <!-- com.automation.tests.scripts.AutomationScripts -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
