@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.tests.scripts.Leads">
+      <class name="com.automation.tests.scripts.AutomationScripts">
         <methods>
-          <include name="leadspage_selecttodaylead"/>
-          <include name="setUpBeforeTestMethod"/>
+          <include name="usermenu_myprofile"/>
           <include name="tearDownAfterTestMethod"/>
+          <include name="setUpBeforeTestMethod"/>
         </methods>
-      </class> <!-- com.automation.tests.scripts.Leads -->
+      </class> <!-- com.automation.tests.scripts.AutomationScripts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
